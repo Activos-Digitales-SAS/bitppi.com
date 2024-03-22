@@ -1,0 +1,96 @@
+#video{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+}
+
+.hero .btn{
+    margin: 1rem .2rem;
+}
+
+
+.hero .content{
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 40vh;
+}
+
+.hero .content h1{
+    font-size: 4rem;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.8rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    color: #fff;
+}
+
+.tituloBP {
+    color: #ac04ac; /* Color principal del texto */
+    text-shadow: 
+        3px 3px 6px #940496,  /* Sombra morada para profundidad */
+        1px 1px 2px #ac619f,  /* Sombra rosada para suavidad */
+        0 0 8px #d39cd2,     /* Resplandor claro para suavizar los bordes */
+        0 0 3px #ddb4d8;     /* Brillo pastel para difuminar aún más */
+    position: relative;
+    z-index: 2; /* Asegúrate de que el texto está por encima del video */
+}
+
+/* Aplicamos un enfoque similar para el párrafo */
+.hero p {
+    color: #fff;
+    text-shadow: 
+        2px 2px 4px #940496,  /* Sombra morada oscura para legibilidad */
+        0 0 5px #ac619f,     /* Resplandor suave rosado */
+        0 0 10px #d39cd2;    /* Brillo claro para difuminar */
+}
+
+@media screen and (max-width:640px) {
+ .content h1{
+    font-size: 1.4rem;
+
+ }
+ 
+ .content p{
+    font-size: 1.4rem;
+    margin-bottom: 1.6rem;
+ }
+}
+
+/* Estilos existentes... */
+
+/* Oculta el video para móviles por defecto */
+.mobileVideo {
+    display: none;
+}
+
+/* Media query para pantallas de hasta 640px de ancho */
+@media screen and (max-width: 640px) {
+    /* Oculta el video de escritorio */
+    .desktopVideo {
+        display: none;
+    }
+    /* Muestra el video para móviles */
+    .mobileVideo {
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+}

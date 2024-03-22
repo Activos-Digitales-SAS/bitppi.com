@@ -1,0 +1,37 @@
+label{
+    color: #eee;
+}
+
+.explicacion{
+    width: 100%;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 90px;
+}
+
+/* Establece el estilo del formulario con un contenedor flexible que alinea sus hijos en una columna */
+form {
+    display: flex; /* Establece un contenedor flexible */
+    flex-direction: column; /* Alinea los elementos hijos verticalmente */
+    padding: 1rem; /* Agrega un espacio alrededor del contenido del formulario */
+    margin: auto; /* Centra el formulario horizontalmente */
+    max-width: 600px; /* Limita el ancho máximo del formulario */
+}
+
+/* Estiliza la etiqueta de cada input dentro del formulario */
+form label {
+    margin-bottom: .5rem; /* Agrega un espacio debajo de la etiqueta */
+}
+
+/* Aplica estilos a los elementos input y textarea dentro del formulario */
+form input, textarea {
+    margin-bottom: 1rem; /* Agrega un espacio debajo de los inputs y textareas */
+    padding: 10px 18px; /* Establece el espacio interno para inputs y textareas */
+    font-size: 1.2rem; /* Aumenta el tamaño de la fuente para mejor legibilidad */
+    font-family: 'Outfit', sans-serif; /* Establece la familia de fuentes a Outfit y una sans-serif como fallback */
+    background: rgba(255, 255, 255, .1); /* Establece un fondo ligeramente transparente */
+    border-color: rgba(255, 255, 255, .1); /* Establece el color del borde con transparencia */
+    color: #f4f4f4; /* Establece el color del texto */
+}

@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1,h4,p,a{
+    color: #fff;
+}
+
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #000;
+
+
+
+
+}
+
+
+
+ul{
+list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+code {
+    font-family:monospace;
+}
+.btn {
+    padding: 12px 32px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background: linear-gradient(145deg, #ac04ac, #940496); /* Gradiente con tus colores */
+    color: #fff;
+    border: none; /* Eliminamos el borde para usar el gradiente */
+    border-radius: 25px; /* Bordes redondeados para suavidad */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Transición suave para el hover */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra suave para profundidad */
+}
+
+.btn-light {
+    background: rgba(0, 0, 0, 0.336);
+    border: 1px solid #e6e6e61c; /* Borde suave que utiliza uno de tus colores */
+}
+
+.btn:hover, .btn-light:hover {
+    background: linear-gradient(155deg, #ddb4d8, #ac619f); /* Gradiente más claro para el hover */
+    color: #940496; /* Cambio de color de texto para contraste */
+    box-shadow: 0 0 15px 0 rgba(172, 4, 172, 0.5); /* Resplandor al pasar el mouse */
+}
+
+/* Asegúrate de incluir un estilo para el foco, para accesibilidad */
+.btn:focus, .btn-light:focus {
+    outline: none; /* Quita el contorno por defecto */
+    box-shadow: 0 0 15px 0 rgba(172, 4, 172, 0.5); /* Resplandor para indicar foco */
+}

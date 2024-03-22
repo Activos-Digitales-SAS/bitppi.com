@@ -1,0 +1,82 @@
+.tituloFooter{
+    margin-bottom: 10px;
+}
+
+.social{
+    margin-top: 15px;
+}
+
+.footer {
+    width: 100%;
+    padding: 0.6rem 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    min-height: 50vh; /* Usamos min-height en lugar de height */
+    flex-direction: column;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 5rem 0;
+}
+
+.footer .left, .footer .contact, .footer .right {
+    padding: 1rem;
+    align-items: center;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Additional location styles */
+.footer .location p, .footer .phone p, .footer .email p {
+    padding: 0.5rem 0; /* Consistent padding for all */
+}
+
+.footer .location h4, .footer .phone h4, .footer .email h4 {
+    margin-top: 0; /* Remove top margin for headings */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr; /* Stack everything in one column */
+    }
+
+    .footer .left, .footer .contact, .footer .right {
+        align-items: center; /* Center-align the flex items */
+    }
+
+    .social {
+        justify-content: center; /* Center social icons */
+        padding-top: 1rem; /* Add some space above the social icons */
+    }
+}
+
+.location, .phone, .email {
+    margin-bottom: 0.5rem; /* Reduce bottom margin for a tighter look */
+}
+
+.social {
+    justify-content: start;
+    padding-top: 0; /* No additional padding needed at the top */
+}
+
+/* For the icons and smaller text, you might want to add styles to adjust their sizes if necessary */
+.social-icon {
+    width: 24px; /* Example size for social icons */
+    height: 24px; /* Example size for social icons */
+    margin-right: 0.5rem; /* Space out the icons */
+}
+
+.small-text {
+    font-size: 0.8rem; /* Smaller text for readability on mobile */
+}
