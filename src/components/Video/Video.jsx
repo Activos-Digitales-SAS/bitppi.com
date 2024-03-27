@@ -24,11 +24,13 @@ const Video = () => {
             <a href="https://descargar.bitppi.app/Bitppi.apk" download className='btn'>
                 Descargar APK!
               </a>
+            
 
               <a href="https://wa.link/djorxx">
               <button className='btn btn-light'>WhatsApp</button>
               </a>
-          
+              <br />
+              <a href="https://platform.bitppi.app/">¡Registrate online Aquí!</a>
             </div>
           </div>
         </div>
