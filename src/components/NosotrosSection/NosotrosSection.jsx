@@ -2,8 +2,8 @@ import React from 'react';
 import './NosotrosSectionStyles.css';
 import { Link } from 'react-router-dom';
 
-import image1 from '../../assets/dale1.webp';
-import image2 from '../../assets/dale2.webp';
+import image1 from '../../assets/nos1.jpg';
+import image2 from '../../assets/nos2.jpg';
 
 const Nosotros = () => {
   return (
@@ -11,7 +11,7 @@ const Nosotros = () => {
         <div className="left">
             <h1>Nosotros</h1>
             <p>Nos posicionamos en la vanguardia de la tecnología financiera y blockchain, ofreciendo soluciones innovadoras que transforman la manera en que interactúas con el mundo digital. Con Bitppi, nuestra revolucionaria pasarela de pago, convertimos tus criptomonedas en pesos de forma segura y eficiente, facilitando la gestión de tus activos digitales. </p>
-            <Link to='contacto' > <button className='btn'>Contacto</button> </Link>
+            <Link to='/contacto' > <button className='btn'>Contacto</button> </Link>
         </div>
         <div className="right">
           <div className="img-container">
