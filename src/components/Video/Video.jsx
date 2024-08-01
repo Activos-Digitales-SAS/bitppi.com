@@ -21,7 +21,7 @@ const Video = () => {
             <h1 className='tituloBP'>¡Vende o Compra!</h1>
             <p>Rapido, seguro y protegido. Empieza ya </p>
             <div>
-            <a href="https://descargar.bitppi.app/Bitppi.apk" download className='btn'>
+            <a href="/Bitppi.apk" download className='btn'>
                 Descargar APK!
               </a>
             
@@ -30,7 +30,7 @@ const Video = () => {
               <button className='btn btn-light'>WhatsApp</button>
               </a>
               <br />
-              <a href="https://platform.bitppi.app/">¡Registrate online Aquí!</a>
+              <a href=""></a>
             </div>
           </div>
         </div>

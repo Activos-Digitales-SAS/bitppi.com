@@ -17,7 +17,7 @@ const Form = () => {
             <input type="text" />
             <label>¿Que Pregunta Tienes?</label>
             <textarea rows='6' placeholder='Escribe tu pregunta aqui' />
-            <button className='btn'> Submit</button>
+            <button className='btn'>Enviar</button>
         </form>
     </div>
   )

@@ -1,9 +1,11 @@
-.tituloFooter{
+.tituloFooter {
     margin-bottom: 10px;
 }
 
-.social{
+.social {
     margin-top: 15px;
+    position: relative;
+    z-index: 1; /* Asegura que el contenedor de los íconos esté por encima */
 }
 
 .footer {
@@ -12,7 +14,7 @@
     background: rgba(0, 0, 0, 0.8);
     display: flex;
     align-items: center;
-    min-height: 50vh; /* Usamos min-height en lugar de height */
+    min-height: 50vh;
     flex-direction: column;
 }
 
@@ -31,12 +33,11 @@
     align-items: center;
 }
 
-.location{
+.location {
     display: flex;
     flex-direction: column;
 }
 
-/* Additional location styles */
 .footer .location p, .footer .phone p, .footer .email p {
     padding: 0.5rem 0; /* Consistent padding for all */
 }
@@ -65,16 +66,12 @@
     margin-bottom: 0.5rem; /* Reduce bottom margin for a tighter look */
 }
 
-.social {
-    justify-content: start;
-    padding-top: 0; /* No additional padding needed at the top */
-}
-
-/* For the icons and smaller text, you might want to add styles to adjust their sizes if necessary */
 .social-icon {
-    width: 24px; /* Example size for social icons */
-    height: 24px; /* Example size for social icons */
-    margin-right: 0.5rem; /* Space out the icons */
+    width: 30px; /* Tamaño de los íconos sociales */
+    height: 30px; /* Tamaño de los íconos sociales */
+    margin-right: 1rem; /* Espacio entre los íconos */
+    position: relative;
+    z-index: 2; /* Asegura que los íconos estén por encima y sean clicables */
 }
 
 .small-text {

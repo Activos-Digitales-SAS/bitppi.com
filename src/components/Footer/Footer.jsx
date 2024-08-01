@@ -1,7 +1,6 @@
 import React from 'react';
-import './FooterStyles.css'; // Asegúrate de que el nombre y la ruta del archivo CSS sean correctos
+import './FooterStyles.css';
 import { FaFacebook, FaInstagram, FaMailBulk, FaPhone, FaSearchLocation, FaTwitter } from 'react-icons/fa';
-
 
 const Footer = () => {
     return (
@@ -9,7 +8,6 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="left">
                     <div className="location">
-                        
                         <p><FaSearchLocation size={20} style={{ color: '#ffffff', marginRight: '1rem' }} />Norte de Santander</p>
                         <h4>Cl. 5 #13e-19, Br. Colsag, <br /> Cúcuta.</h4>
                     </div>
@@ -26,14 +24,15 @@ const Footer = () => {
                     <h4 className='tituloFooter'>Nuestra Empresa</h4>
                     <p>"Somos Bitppi tu manera fácil de transferir dinero en criptomonedas, que esperas para descargar la app. Ofrecemos confianza y seguridad, regístrate ahora"</p>
                     <div className="social">
-                        <a href="https://facebook.com/bitppi">
-                        <FaFacebook size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
+                        <a href="https://facebook.com/bitppi" className="social-icon">
+                            <FaFacebook size={30} />
                         </a>
-                        <a href="https://instagram.com/bitppi.app">
-                        <FaInstagram size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
+                        <a href="https://instagram.com/bitppi.app" className="social-icon">
+                            <FaInstagram size={30} />
                         </a>
-                      <a href="https://twitter.com/bitppi"> <FaTwitter size={30} style={{ color: '#ffffff', marginRight: '1rem' }} /></a>
-                       
+                        <a href="https://x.com/Bitppi1" className="social-icon">
+                            <FaTwitter size={30} />
+                        </a>
                     </div>
                 </div>
             </div>
