@@ -14,7 +14,7 @@ const Footer = () => {
                 </div>
                 <div className="contact">
                     <div className="phone">
-                        <h4><FaPhone size={20} style={{ color: '#ffffff', marginRight: '2rem' }} />+57 320 828 9705</h4>
+                        <h4><FaPhone size={20} style={{ color: '#ffffff', marginRight: '2rem' }} />+57 315 222 3777</h4>
                     </div>
                     <div className="email">
                         <h4><FaMailBulk size={20} style={{ color: '#ffffff', marginRight: '2rem' }} />info@bitppi.com</h4>

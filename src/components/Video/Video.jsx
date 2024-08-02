@@ -26,7 +26,7 @@ const Video = () => {
               </a>
             
 
-              <a href="https://wa.link/djorxx">
+              <a href="https://wa.link/ksaz1n">
               <button className='btn btn-light'>WhatsApp</button>
               </a>
               <br />

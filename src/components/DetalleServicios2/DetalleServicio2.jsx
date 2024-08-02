@@ -21,7 +21,7 @@ const DetalleServicio = () => {
             <p>
               En la vanguardia de la revolución tecnológica, Forense Blockchain se erige como una solución pionera, diseñada para empoderar a individuos y organizaciones mediante la seguridad, transparencia y eficiencia que solo la tecnología blockchain puede ofrecer. Nuestro servicio está especialmente concebido para aquellos que buscan no solo proteger sus activos digitales, sino también optimizar sus operaciones y explorar nuevas oportunidades en el mundo digital.
             </p>
-            <a href="https://wa.link/o1fno9">WhatsApp</a>
+            <a href="https://wa.link/ksaz1n">WhatsApp</a>
           </div>
         </div>
       </div>
